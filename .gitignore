@@ -183,3 +183,4 @@ cwallet.sso.lck
 
 .idea/**
 *.iml
+**/.DS_Store
