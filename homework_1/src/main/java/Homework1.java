@@ -13,11 +13,11 @@ public class Homework1 {
         instance.printArray(instance.sortArray(array));
     }
     private int chet (int [] arr){
-        int c =0;
+        int counter =0;
         for(int i=0;i<arr.length;i++){
-            if(arr[i]%2==0) c++;
+            if(arr[i]%2==0) counter++;
         }
-        return c;
+        return counter;
     }
     private int[] getRandomArray(int lenght) {
         Random rn = new Random();
